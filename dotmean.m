@@ -1,3 +1,3 @@
 function result = dotmean(imgSlice, kernel)
-    result = mean(mean(imgSlice * kernel));
+    result = mean(mean(kernel.*imgSlice));
 end
